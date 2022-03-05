@@ -1,0 +1,56 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+.top-nav {
+    overflow: hidden;
+    background-color: #2E3440;
+    border: 2px solid #81A1C1;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+}
+
+.top-nav a {
+    float: left;
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem 1.05rem;
+    text-decoration: none;
+}
+
+.top-nav a:hover {
+    background: #81A1C1;
+    color: aliceblue;
+    border-top: 2px dashed #2E3440;
+    border-bottom: 2px dashed #2E3440;
+}
+
+body {
+    background-color: #81A1C1;
+    border: 2px solid #2E3440;
+    margin-top: 2em;
+}
+
+.language-html {
+    background-color: #2E3440;
+    width: 100%;
+    padding: 0.8em 1em;
+}
+
+code {
+    color: aliceblue;
+}
+
+.heading-styles {
+    border: 2px solid red;
+}
+
+.language {
+    vertical-align: middle;
+    margin-left: 2em;
+    padding: 0.2em 0.5em;
+}
